@@ -1,0 +1,49 @@
+.mainheader {
+    background-color: #f5f6f8;
+    padding-bottom: 10px;
+}
+
+.mainnav {
+    /* change font */
+    font-size: 18px;
+    color: #666666;
+    
+}
+
+.mainnav li {
+    list-style-type: none;
+    display: inline;
+    padding: 10px;
+}
+
+.imgalignment {
+    /* Find out how to align text to the right of the images */
+}
+
+h2 {
+    font-size: 30px;
+    color: #333333;
+    /* Change font */
+}
+
+h3 {
+    color: #333333;
+    display: vertical;
+}
+
+.advantages {
+    list-style-type: none;
+    /* Work out how to add checkmark image */
+}
+
+footer {
+    background-color: #3A3D40;
+    color: #DDDDDD;
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+
+footer li {
+    list-style-type: none;
+    padding: 5px;
+}
