@@ -1,13 +1,13 @@
-.mainheader {
-    background-color: #f5f6f8;
-    padding-bottom: 10px;
+* {
+    font-family: 'Open Sans';
 }
 
+/* Nav */
 .mainnav {
     /* change font */
     font-size: 18px;
     color: #666666;
-    
+    font-weight: bolder;
 }
 
 .mainnav li {
@@ -16,31 +16,53 @@
     padding: 10px;
 }
 
-.imgalignment {
-    /* Find out how to align text to the right of the images */
+/* Nav BG */
+.mainheader {
+    background-color: #f5f6f8;
+    padding-bottom: 10px;
 }
 
+/* Title One */
 h2 {
     font-size: 30px;
     color: #333333;
-    /* Change font */
+    font-weight: lighter;
+    
 }
 
+/* Title One Paragraph */
+.description {
+    font-size: 18px;
+    color: #666666;
+    font-weight: normal;
+    
+}
+
+
+/* Title Two */
 h3 {
     color: #333333;
     display: vertical;
+    font-weight: bold;
+    font-size: 16px;
 }
 
+/* Title Two Paragraph */
 .advantages {
+    font-size: 16px;
+    font-weight: normal;
     list-style-type: none;
     /* Work out how to add checkmark image */
 }
+
+/* Footer and Footer BG */
 
 footer {
     background-color: #3A3D40;
     color: #DDDDDD;
     letter-spacing: 2px;
     font-size: 18px;
+    font-weight: bold;
 }
 
 footer li {
