@@ -1,6 +1,11 @@
 * {
     font-family: 'Open Sans';
+    max-width: 800px;
+    margin: auto;
+    /* How to change give webste a border */
+    /* align items center somehow */
 }
+
 
 /* Nav */
 .mainnav {
@@ -8,12 +13,18 @@
     font-size: 18px;
     color: #666666;
     font-weight: bolder;
+    
 }
 
 .mainnav li {
     list-style-type: none;
     display: inline;
     padding: 10px;
+}
+
+/* Divider */
+hr {
+    color: #D8D8D8;
 }
 
 /* Nav BG */
