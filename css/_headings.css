@@ -1,0 +1,10 @@
+h2,
+h3 {
+    font-size: 30px;
+    color: #333333;
+    font-weight: 300;
+}
+
+html {
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
