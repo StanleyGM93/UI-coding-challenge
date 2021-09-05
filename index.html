@@ -6,128 +6,137 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Serpent VPN</title>
-	<link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
-	<header class="mainheader">
-		<img src="assets/logo.svg" alt="The Serpent VPN logo">
+	<header>
 		<h1>
-			<nav class="mainnav">
-				<ul>
-					<li>Features</li>
-					<li>Apps</li>
-					<li>Our Team</li>
-					<li>Customer Support</li>
-				</ul>
-			</nav>
+			<a href="/">
+				<img src="assets/logo.svg" alt="Serpent VPN">
+			</a>
 		</h1>
+		<h2>Main Menu</h2>
+		<nav>
+			<ul>
+				<li><a href="/features">Features</a></li>
+				<li><a href="/apps">Apps</a></li>
+				<li><a href="/our-team">Our Team</a></li>
+				<li><a href="/customer-support">Customer Support</a></li>
+			</ul>
+		</nav>
+
 	</header>
 
 	<main>
-		<section>
-			<img src="assets/logo_cloud.svg" alt="The Serpent VPN logo on a could">
-			<header>
-				<h2>The World's Best VPN</h2>
-			</header>
-			<!-- Do I place this paragraph in the header? -->
-			<p class="description">Our product is changing how individuals use a personal VPN.
+
+		<header>
+			<h2>The World's Best VPN</h2>
+
+			<p>Our product is changing how individuals use a personal VPN.
 				Traditional personal VPNs allow users to connect only to servers
 				that the VPN provider owns, and distributes an IP address from a pool that is also owned by VPN
-				provider. Serpent VPN is the next evolution of personal VPN and instead allows users to ultlize their
+				provider. Serpent VPN is the next evolution of personal VPN and instead allows users to ultlize
+				their
 				own server, and connect to it from our state-of-the-art applications.
 			</p>
+		</header>
 
-			<p class="imgalignment">
-				<img src="assets/icon_infrastructure.svg" alt="A cloud with a lock symbol on it">
+		<article>
 
-				<h3>Lock Down Cloud Infrastructure</h3>
-				Reduce the number of attack vectors on your public cloud infrastructure.
-			</p>
-			<p class="imgalignment">
-				<img src="assets/icon_vulnerabilities.svg" alt="A vault with a shield on it">
+			<h3>Features</h3>
 
-				<h3>Protect Against Vulnerabilities</h3>
-				Protect your cloud servers against scanning for open SSH vulnerabilities and logins
-			</p>
-			<p class="imgalignment">
-				<img src="assets/icon_third_party.svg" alt="A Screen with a lock symbol on it">
+			<dl>
 
-				<h3>Secure Third-Party Services</h3>
-				Lock down access to third-party services, such as Salesforce, to your server's static IP address.
-			</p>
+				<dt>Lock Down Cloud Infrastructure</dt>
+				<dd>Reduce the number of attack vectors on your public cloud infrastructure.</dd>
 
-		</section>
+				<dt>Protect Against Vulnerabilities</dt>
+				<dd>Protect your cloud servers against scanning for open SSH vulnerabilities and logins</dd>
 
-		<hr>
+				<dt>Secure Third-Party Services</dt>
+				<dd>Lock down access to third-party services, such as Salesforce, to your server's static IP address.
+				</dd>
 
-		<section>
-			<img src="assets/secure.svg" alt="A lock with a tick in the middle">
+			</dl>
 
+
+		</article>
+
+		<article>
+			
 			<header>
-				<h2>Secure Access Point</h2>
+				<h3>Secure Access Point</h3>
 			</header>
 
-			<p class="description">
+			<p>
 				Serpent VPN provides a secure access point that locks down your cloud infrastructure and protects your
 				internet connection. With Serpent VPN, you can:
 			</p>
 
-			<p>
-				<!-- Why does the ul not indent as a child of the p element -->
 			<ul>
 				<li>Lock Down Cloud Infrastructure</li>
 				<li>Protect Against Vulnerabilities</li>
 				<li>Secure Third-Party Services</li>
 				<li>Secure Every Internet Connection</li>
 			</ul>
-			</p>
 
-		</section>
 
-		<hr>
-		
-		<section>
-			<img src="assets/advantages.svg" alt="A large image to introduce the advantages section">
+		</article>
 
+		<article>
+			
 			<header>
-				<h2>The Advantages are Endless</h2>
+				<h3>The Advantages are Endless</h3>
 			</header>
 
-			<p class="description">
+			<p>
 				Serpent VPN makes using a VPN simple and streamlined while also offering several cool benefts:
 			</p>
 
-			<p>
-			<ul class="advantages">
+			<ul>
 				<li>Use your own dedicated IP address from a server you manage</li>
 				<li>Set your own logging policy</li>
 				<li>Choose your own hardware</li>
 				<li>Set up within minutes</li>
 				<li>Retain access to Serpent VPN's global server network</li>
 			</ul>
-			</p>
 
-		</section>
+		</article>
 
 
 	</main>
 
 	<footer>
-
+		<h2>Additional Information</h2>
 		<nav>
 			<ul>
-				<li>Products</li>
-				<li>Resources</li>
-				<li>Company</li>
-				<li>Support</li>
-				<li>Social: <br>
-					<a href="https://www.facebook.com/"><img src="assets/social_facebook.svg" alt="Facebook logo"></a>
-					<a href="https://twitter.com/?lang=en"><img src="assets/social_twitter.svg" alt="Twitter logo"></a>
-					<a href="https://www.linkedin.com/"><img src="assets/social_linkedin.svg" alt="Linkedin logo"></a>
+				<li><a href="/products">Products</a></li>
+				<li><a href="/resources">Resources</a></li>
+				<li><a href="/company">Company</a></li>
+				<li><a href="/support">Support</a></li>
+				<li>Social:
+					<ul>
+						<li>
+							<a href="https://www.facebook.com/">
+								<img src="assets/social_facebook.svg" alt="Facebook">
+							</a>
+						</li>
+						<li>
+							<a href="https://twitter.com/?lang=en">
+								<img src="assets/social_twitter.svg" alt="Twitter">
+							</a>
+						</li>
+						<li>
+							<a href="https://www.linkedin.com/">
+								<img src="assets/social_linkedin.svg" alt="Linkedin">
+							</a>
+						</li>
+					</ul>
 				</li>
 			</ul>
+
+
 		</nav>
 
 	</footer>
