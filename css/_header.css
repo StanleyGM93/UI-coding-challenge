@@ -1,0 +1,56 @@
+body > header {
+    background-color: #F5F6F8;
+    color: #666666;
+}
+
+/* Only 1 h1 in the document */
+h1  {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px 0 50px 0;   
+    max-height: 46px;
+}
+
+body > header > h2 {
+        clip: rect(0 0 0 0);
+        clip-path: inset(50%);
+        height: 1px;
+        overflow: hidden;
+        position: absolute;
+        white-space: nowrap;
+        width: 1px;  
+}
+
+header > nav  {
+    padding-top: 8px;
+    padding-bottom: 36px;
+}
+
+header > nav > ul{
+    margin: 0;
+    padding-left: 0;
+    list-style-type: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: #666666;
+}
+
+header li {
+    display: inline;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+ h1 img{
+    max-width: 100%;
+    max-height: 100%;
+    width: 300px;
+    height: 46px;
+ }
+
+ header nav a {
+     display: inline-block;
+     padding: 12px;   
+ }
+
