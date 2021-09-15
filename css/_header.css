@@ -54,3 +54,9 @@ header li {
      padding: 12px;   
  }
 
+ header nav a:hover{
+     font-weight: 900;
+     background-color: black;
+     color: white;
+ }
+
