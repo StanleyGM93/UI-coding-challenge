@@ -1,3 +1,15 @@
 dt {
-    font-weight: 700;
+    font-size: 16px;
+    font-weight: 900;
+    color: #333333;
+    text-align: start;
+    /* Why does text-align left not work but align start does */
 }
+
+dd {
+    font-size: 16px;
+    font-weight: 400;
+    color: #666666;
+    text-align: start;
+}
+
