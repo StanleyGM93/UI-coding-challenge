@@ -1,0 +1,44 @@
+footer {
+    color: #DDDDDD;
+    background-color: #3A3D40;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+footer > h2 {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px; 
+}
+
+footer ul {
+    list-style-type: none;
+    padding-top: 45px;
+}
+
+footer li {
+    padding: 15px 0 15px 0;
+}
+
+footer a {
+    padding: 15px 5px 15px 5px;
+}
+
+footer a:hover{
+    font-size: 24px;
+}
+
+footer > nav > ul > li > ul > li {
+    display: inline-block;
+}
+
+footer > nav > ul > li > ul {
+    padding-top: 0;
+    padding-left: 0;
+}
+
