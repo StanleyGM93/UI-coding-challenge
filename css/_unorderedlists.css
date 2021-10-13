@@ -1,0 +1,7 @@
+article ul {
+    list-style-position: inside;
+}
+
+#checkmark  li{
+    list-style-image: url(../assets/checkmark.svg);
+}

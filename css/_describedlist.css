@@ -19,4 +19,15 @@ dd {
     padding-left: 60px;
 }
 
+#lockdown {
+    list-style-image: url(../assets/icon_infrastructure.svg);
+}
+
+#infrastructure{
+    list-style-image: url(../assets/icon_infrastructure.svg);
+}
+
+#services {
+    list-style-image: url(../assets/secure.svg);
+}
 
