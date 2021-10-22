@@ -1,5 +1,6 @@
 article ul {
     list-style-position: inside;
+    line-height: 40px;
 }
 
 #checkmark  li{

@@ -9,12 +9,20 @@ article > p {
     font-size: 18px;
     font-weight: 400;
     color: #666666;
-    padding-left: 60px;
-    padding-right: 60px;
 }
 
 article ul {
     font-size: 16px;
     font-weight: 400;
     color: #666666;
+}
+
+.border {
+    border-top-style: solid;
+    border-top-color: #D8D8D8;
+    border-top-width: thin;
+}
+
+article {
+    padding-bottom: 30px;
 }

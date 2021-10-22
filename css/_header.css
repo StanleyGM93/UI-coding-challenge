@@ -1,6 +1,8 @@
 body > header {
     background-color: #F5F6F8;
     color: #666666;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 /* Only 1 h1 in the document */

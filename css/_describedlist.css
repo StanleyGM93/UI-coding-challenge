@@ -11,23 +11,21 @@ dd {
     font-weight: 400;
     color: #666666;
     text-align: start;
+    margin-left: 0;
+    padding-top: 5px;
+    padding-bottom: 10px;
 }
 
-dt,
-dd {
-    padding-right: 60px;
-    padding-left: 60px;
+article > h3 {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
 }
 
-#lockdown {
-    list-style-image: url(../assets/icon_infrastructure.svg);
-}
 
-#infrastructure{
-    list-style-image: url(../assets/icon_infrastructure.svg);
-}
 
-#services {
-    list-style-image: url(../assets/secure.svg);
-}
 
