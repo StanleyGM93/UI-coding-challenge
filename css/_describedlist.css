@@ -1,30 +1,37 @@
+dl {
+    text-align: start;
+}
+
+dl > div {
+    padding-inline-start: 80px;
+    padding-block-end: 40px;
+    background-repeat: no-repeat;
+}
+
 dt {
-    font-size: 16px;
     font-weight: 900;
     color: #333333;
-    text-align: start;
-    /* Why does text-align left not work but align start does */
 }
 
 dd {
-    font-size: 16px;
     font-weight: 400;
     color: #666666;
-    text-align: start;
-    margin-left: 0;
-    padding-top: 5px;
-    padding-bottom: 10px;
+    margin-inline-start: 0;
+    padding-block-start: 5px;
 }
 
-article > h3 {
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    height: 1px;
-    overflow: hidden;
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
+#infrastructure {
+    background-image: url(../assets/icon_infrastructure.svg);
 }
+
+#vulnerabilities {
+    background-image: url(../assets/icon_vulnerabilities.svg);
+}
+
+#services {
+    background-image: url(../assets/icon_third_party.svg);
+}
+
 
 
 

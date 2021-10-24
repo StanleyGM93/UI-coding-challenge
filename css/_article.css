@@ -1,8 +1,15 @@
-h2,
-h3 {
-    font-size: 30px;
-    font-weight: 200;
-    color: #333333;
+article {
+    padding-bottom: 30px;
+}
+
+article > h3 {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
 }
 
 article > p {
@@ -23,6 +30,5 @@ article ul {
     border-top-width: thin;
 }
 
-article {
-    padding-bottom: 30px;
-}
+
+
