@@ -1,11 +1,17 @@
 dl {
     text-align: start;
+    margin-block-start: 54px;
+    margin-block-end: 0;
 }
 
 dl > div {
     padding-inline-start: 80px;
     padding-block-end: 40px;
     background-repeat: no-repeat;
+}
+
+dl > div:last-child {
+    padding-block-end: 0;
 }
 
 dt {
