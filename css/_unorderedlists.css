@@ -1,9 +1,22 @@
 article ul {
     list-style-position: inside;
-    line-height: 40px;
     margin-block-end: 0;
+    padding-inline-start: 0;
 }
+
+article ul li {
+    margin-block-start: 18px;
+} 
+
+article ul li:first-child {
+    margin-block-start: 0;
+} 
 
 #checkmark  li{
     list-style-image: url(../assets/checkmark.svg);
 }
+
+/* article ul li + li {
+    margin-block-start: 18px;
+} */
+/* Strategy B */
