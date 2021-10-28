@@ -18,7 +18,7 @@ footer > h2 {
 
 footer ul {
     list-style-type: none;
-    padding-top: 35px;
+    padding-block-start: 35px;
 }
 
 footer li {
@@ -38,7 +38,7 @@ footer > nav > ul > li > ul > li {
 }
 
 footer > nav > ul > li > ul {
-    padding-top: 0;
-    padding-left: 0;
+    padding-block-start: 0;
+    padding-inline-start: 0;
 }
 

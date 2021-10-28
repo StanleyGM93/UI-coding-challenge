@@ -14,6 +14,6 @@ a {
 }
 
 main {
-    padding-right: 60px;
-    padding-left: 60px;
+    padding-inline-start: 60px;
+    padding-inline-end: 60px;
 }
