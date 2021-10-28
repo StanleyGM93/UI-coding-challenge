@@ -8,7 +8,7 @@ dl > div {
     padding-inline-start: 90px;
     margin-block-end: 40px;
     background-repeat: no-repeat;
-    /* background-size: contain;  To fix*/
+    min-height: 60px;
 }
 
 dl > div:last-child {
