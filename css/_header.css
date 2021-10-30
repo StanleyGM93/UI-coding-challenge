@@ -51,7 +51,7 @@ header nav a {
 
 header nav a:hover{
     font-weight: 900;
-    background-color: black;
+    background-color:#3A3D40;
     color: white;
 }
 
