@@ -1,11 +1,10 @@
-body > header {
-    background-color: #F5F6F8;
+.mainheader header {
     color: #666666;
     padding-inline-start: 0;
     padding-inline-end: 0;
 }
 
-body > header > h2 {
+.mainheader header > h2 {
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
     height: 1px;
@@ -65,7 +64,35 @@ h1 img{
     height: 46px;
  }
 
+ .mainheader {
+    background-color: #F5F6F8;
+ }
 
+@media (min-width: 1200px) {
+    .mainheader > header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: stretch;
+        max-width: 960px;
+        margin-inline: auto;
+        padding-block: 26px;
+    }
+
+    h1 {
+        margin: 0;
+        padding: 0;
+    }
+
+    header > nav {
+        padding: 0;
+    }
+
+    h1 img{
+        max-width: 200px;
+    
+     }
+}
 
 
 
