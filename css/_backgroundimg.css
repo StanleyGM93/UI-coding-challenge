@@ -1,0 +1,27 @@
+main > header {
+    background-image: url(../assets/logo_cloud.svg);
+  }
+
+.secureaccess {
+    background-image: url(../assets/secure.svg);
+}
+
+.advantages {
+    background-image: url(../assets/advantages.svg);
+}
+
+.decorativeimg {
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 60px;
+    padding-block-start: calc(60px + 200px + 80px); 
+    /* 60 = padding above image
+        200 = background img size
+        80 = padding between img and text */
+    background-size: 200px;
+}
+
+.decorativeimg h2, 
+.decorativeimg h3 {
+    margin-block-start: 0;
+}
