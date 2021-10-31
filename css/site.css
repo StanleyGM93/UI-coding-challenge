@@ -7,7 +7,11 @@
 @import url(_article.css);
 @import url(_unorderedlists.css);
 @import url(_backgroundimg.css);
+@import url(_button.css);
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* @media (min-width: 1200px) */
+
 
 
 /* Look up CSS box model

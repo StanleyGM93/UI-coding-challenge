@@ -39,4 +39,17 @@ dd {
     background-image: url(../assets/icon_third_party.svg);
 }
 
+@media (min-width: 1200px) {
+    dl {
+        display: flex;
+        flex-direction: row;
+    }
 
+    dl > div {
+        padding-inline-start: 0;
+        padding-block-start: 88px;
+    }
+    dl > div + div {
+        margin-inline-start: 56px;
+    }
+}
