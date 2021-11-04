@@ -19,9 +19,24 @@ main > header {
         200 = background img size
         80 = padding between img and text */
     background-size: 200px;
+    line-height: 1.6;
 }
 
 .decorativeimg h2, 
 .decorativeimg h3 {
     margin-block-start: 0;
+}
+
+@media (min-width: 1200px) {
+    .decorativeimg {
+        padding-block-start: 76px;
+        padding-inline-end: 370px;
+        text-align: start;
+        background-position-x: right;
+        background-size: auto;
+    }
+
+    main > header > p {
+        margin-block-end: 0;
+    }
 }

@@ -16,7 +16,8 @@ article ul li:first-child {
     list-style-image: url(../assets/checkmark.svg);
 }
 
-/* article ul li + li {
-    margin-block-start: 18px;
-} */
-/* Strategy B */
+@media (min-width: 1200px) {
+    .secureaccess ul {
+        padding-inline-start: 10px;
+    }
+}
