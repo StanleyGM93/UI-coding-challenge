@@ -45,3 +45,12 @@ footer > nav > ul > li > ul {
     padding-inline-start: 0;
 }
 
+@media (min-width: 1200px) {
+   footer ul li {
+       display: inline-block;
+       
+   } 
+   footer > nav > ul > li > ul {
+       display: inline;
+   }
+}
