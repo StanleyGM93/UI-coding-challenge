@@ -33,11 +33,20 @@ footer a {
 }
 
 footer a:hover{
-    font-size: 24px;
+    border: solid;
+    border: 1px;
+    border-color: black;
+    color: #3A3D40;
+    background-color: #DDDDDD;
 }
 
 footer > nav > ul > li > ul > li {
     display: inline-block;
+}
+
+footer > nav > ul > li > ul > li > a:hover {
+    background-color: #3A3D40;
+    /* Is there a better way? */
 }
 
 footer > nav > ul > li > ul {
@@ -46,11 +55,23 @@ footer > nav > ul > li > ul {
 }
 
 @media (min-width: 1200px) {
+    footer {
+        padding-inline: 120px;
+        height: 160px;
+    }
+    footer ul {
+        padding-block-start: 40px;
+    }
    footer ul li {
-       display: inline-block;
-       
+       display: inline-flex;
+       flex-direction: row;
+       padding-inline: 30px;
    } 
-   footer > nav > ul > li > ul {
-       display: inline;
+   footer > nav > ul > li > ul > li {
+       padding: 0;
    }
+   footer > nav > ul > li > ul  {
+    padding-inline-start: 10px;
+}
+      
 }
