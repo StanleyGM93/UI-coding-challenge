@@ -43,6 +43,7 @@ dd {
     dl {
         display: flex;
         flex-direction: row;
+        margin-block-start: 0;
     }
 
     dl > div {
