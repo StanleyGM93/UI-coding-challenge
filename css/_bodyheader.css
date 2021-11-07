@@ -4,7 +4,7 @@ main > header > p {
     color: #666666;
 }
  
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
     main > header {
         padding-block-end: calc(350px - 76px - 212px);
         /* 350 = required height of header element

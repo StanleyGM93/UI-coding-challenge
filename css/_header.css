@@ -28,10 +28,14 @@ header > nav > ul{
     font-size: 18px;
     font-weight: 600;
     color: #666666;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 header li {
-    display: inline;
+    display: block;
     margin-inline-start: 12px;
     margin-inline-end: 12px;
 }
@@ -57,23 +61,30 @@ h1  {
     max-height: 46px;
 }
 
+h1 a {
+    display: block;
+    padding-inline: 5px;
+    width: 300px;
+    height: 46px;
+    margin-inline: auto;
+}
+
 h1 img{
     max-width: 100%;
     max-height: 100%;
-    width: 300px;
-    height: 46px;
+    display: block;
  }
 
  .mainheader {
     background-color: #F5F6F8;
  }
 
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
     .mainheader > header {
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: stretch;
+        justify-content: space-between;
         max-width: 960px;
         margin-inline: auto;
         padding-block: 26px;
@@ -86,6 +97,10 @@ h1 img{
 
     header > nav {
         padding: 0;
+    }
+
+    h1 a {
+        margin-inline-start: -5px;
     }
 
     h1 img{

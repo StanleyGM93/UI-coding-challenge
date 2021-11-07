@@ -39,7 +39,7 @@ dd {
     background-image: url(../assets/icon_third_party.svg);
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
     dl {
         display: flex;
         flex-direction: row;

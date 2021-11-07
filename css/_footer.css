@@ -4,8 +4,8 @@ footer {
     font-size: 18px;
     font-weight: 700;
     letter-spacing: 2px;
-    padding: 30px;
     text-transform: uppercase;
+    padding-block-start: 45px;
 }
 
 footer > h2 {
@@ -46,9 +46,8 @@ footer > nav > ul > li > ul {
     padding-inline-start: 0;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
     footer {
-        padding-inline: 120px;
         height: 160px;
         padding-block: 0;
     }

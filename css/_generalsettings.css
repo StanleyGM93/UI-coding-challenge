@@ -18,8 +18,10 @@ main {
     padding-inline-end: 60px;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
     main {
-        padding-inline: 120px;
+        max-width: 960px;
+        margin-inline: auto;
+        padding: 0;
     }
 }

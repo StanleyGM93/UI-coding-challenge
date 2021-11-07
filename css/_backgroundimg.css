@@ -51,7 +51,7 @@ a[href="https://www.linkedin.com/"] {
     background-image: url(../assets/social_linkedin.svg);
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
     .decorativeimg {
         padding-block-start: 76px;
         padding-inline-end: 370px;
