@@ -87,7 +87,8 @@ h1 img{
         justify-content: space-between;
         max-width: 960px;
         margin-inline: auto;
-        padding-block: 26px;
+        height: 90px;
+        margin-block: auto;
     }
 
     h1 {
@@ -104,8 +105,8 @@ h1 img{
     }
 
     h1 img{
+        display: block;
         max-width: 200px;
-    
      }
 }
 

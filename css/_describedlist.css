@@ -44,6 +44,7 @@ dd {
         display: flex;
         flex-direction: row;
         margin-block-start: 0;
+        max-height: 180px;
     }
 
     dl > div {
