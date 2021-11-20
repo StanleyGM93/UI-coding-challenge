@@ -88,7 +88,6 @@ h1 img{
         max-width: 960px;
         margin-inline: auto;
         height: 90px;
-        margin-block: auto;
     }
 
     h1 {
@@ -102,6 +101,11 @@ h1 img{
 
     h1 a {
         margin-inline-start: -5px;
+        width: 200px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        /* Is this the easiest way to vertically center the img in the anchor element. */
     }
 
     h1 img{
