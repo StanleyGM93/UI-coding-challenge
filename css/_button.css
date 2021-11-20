@@ -8,6 +8,10 @@
     border-radius: 2px;
 }
 
+.button:hover {
+    color: black;
+}
+
 @media (max-width: 999px) {
     .button {
         clip: rect(0 0 0 0);

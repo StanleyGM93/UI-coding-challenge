@@ -58,6 +58,7 @@ a[href="https://www.linkedin.com/"] {
         text-align: start;
         background-position-x: right;
         background-size: auto;
+        background-position-y: 70px;
     }
 
     main > header > p {
