@@ -1,5 +1,5 @@
-@import url(_generalsettings.css);
-@import url(_headings.css);
+@import url(./generalsettings.css);
+@import "_headings.css";
 @import url(_header.css);
 @import url(_footer.css);
 @import url(_describedlist.css);
