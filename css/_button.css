@@ -13,7 +13,19 @@
 }
 
 @media (max-width: 999px) {
-    .button {
+    a.button {
+        clip: rect(0 0 0 0);
+        clip-path: inset(50%);
+        height: 1px;
+        overflow: hidden;
+        position: absolute;
+        white-space: nowrap;
+        width: 1px;  
+    }
+}
+
+@media (min-width: 1000px) {
+    label.button {
         clip: rect(0 0 0 0);
         clip-path: inset(50%);
         height: 1px;

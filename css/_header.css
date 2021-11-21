@@ -79,6 +79,16 @@ h1 img{
     background-color: #F5F6F8;
  }
 
+ #menu_checkbox {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px; 
+ }
+
 @media (min-width: 1000px) {
     .mainheader > header {
         display: flex;
@@ -114,6 +124,21 @@ h1 img{
      }
 }
 
+@media (max-width: 999px) {
+    input[type="checkbox"]:checked ~ nav {
+    /* Displays the main nav */
+        transform: translateX(0);
+    }
+    
+    input[type="checkbox"]:not(:checked) ~ nav {
+    /* Hides the main nav */
+        transform: translateX(-200%);
+    }
+
+    header > nav {
+        transition: transform 0.3s ease-in;
+    }
+}
 
 
 
