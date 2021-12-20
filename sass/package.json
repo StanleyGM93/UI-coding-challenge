@@ -1,0 +1,19 @@
+{
+  "name": "sass",
+  "version": "1.0.0",
+  "description": "---\r Learning node and SASS\r ---\r 1. Download NodeJS\r 1. Install NodeJS onto machine\r 1. Close any terminal windows\r 1. Check that node is running by typing `node` into terminal window\r 1.",
+  "main": "index.js",
+  "scripts": {
+    "scss:compile": "npx sass ./scss/input.scss ./css/styles.css",
+    "scss:watch": "npx sass ./scss/input.scss ./css/styles.css -w",
+    "start": "npm run scss:watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.45.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
