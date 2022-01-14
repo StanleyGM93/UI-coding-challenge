@@ -1,9 +1,33 @@
-@import "../node_modules/bootstrap/scss/bootstrap";
+$nav-fw: 600;
+$nav-fs: 18px;
+$nav-color: #666666;
+$nav-bg: #F5F6F8;
 
-body {
-    background: black;
-}
+$title1-fw: 300;
+$title1-fs: 30px;
+$title1-color: #333333;
 
-p {
-    color: white;
-}
+$title2-fw: 700;
+// $title2-fs: 16px; --- is this needed as 16px is base font size
+$title2-color: #333333;
+
+$p1-fs: 18px;
+$p1-color: #666666;
+
+$p2-fs: 16px;
+$p2-color: #666666;
+
+$footer-fw: 700;
+$footer-fs: 18px;
+$footer-color: #DDDDDD;
+$footer-bg: #3A3D40;
+$footer-ls: 2px;
+
+// Is it better to have variables as above or maps such as below?
+// $footer: (
+    // "footer-fw": 700,
+    // "footer-fs": 18px,
+    // "footer-color": #DDDDDD,
+    // "footer-bg": #3A3D40,
+    // "footer-ls": 2px
+// );
